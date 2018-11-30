@@ -26,8 +26,11 @@ public class MainActivity extends AppCompatActivity {
                 String password = passwordText.getText().toString();
                 if(ValidationID(name, password)){
                     Intent intent = new Intent(getApplicationContext(), SubbActivity.class);
+                    Intent intentforweb = new Intent(getApplicationContext(), WebLayout.class);
+                    Intent intentforweb2 = new Intent(getApplicationContext(), Web2.class);
                     intent.putExtra("nameText", "hello " + name);
-                    startActivity(intent);
+                    //startActivity(intent);
+                    startActivity(intentforweb2);
                 }
             }
         });

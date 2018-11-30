@@ -11,13 +11,15 @@ public class SubbActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle bundle) {
 
-        final Button gobackButton = (Button) findViewById(R.id.gobackbutton);
-
+        //final Button gobackButton = (Button) findViewById(R.id.gobackbutton);
         super.onCreate(bundle);
         setContentView(R.layout.activity_sub);
+
         TextView nameText = (TextView) findViewById(R.id.nameText);
         Intent intent = getIntent();
         nameText.setText(((Intent) intent).getStringExtra("nameText").toString());
+
+
     }
 
 }
