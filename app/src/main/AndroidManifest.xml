@@ -19,6 +19,14 @@
         <activity android:name=".SubbActivity">
 
         </activity>
+
+        <activity android:name=".WebLayout">
+
+        </activity>
+
+        <activity android:name=".Web2">
+
+        </activity>
     </application>
 
 </manifest>

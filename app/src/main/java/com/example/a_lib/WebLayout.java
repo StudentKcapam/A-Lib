@@ -21,7 +21,7 @@ public class WebLayout extends AppCompatActivity {
         mWebSettings = mWebView.getSettings();
         mWebSettings.setJavaScriptEnabled(true);
 
-        mWebView.loadUrl("https://m.naver.com");
+        mWebView.loadUrl("https://studentkcapam.github.io/ImagineBox/");
     }
 
 }

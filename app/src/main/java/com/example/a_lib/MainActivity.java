@@ -30,7 +30,8 @@ public class MainActivity extends AppCompatActivity {
                     Intent intentforweb2 = new Intent(getApplicationContext(), Web2.class);
                     intent.putExtra("nameText", "hello " + name);
                     //startActivity(intent);
-                    startActivity(intentforweb2);
+                    startActivity(intentforweb);
+                    //startActivity(intentforweb2);
                 }
             }
         });
